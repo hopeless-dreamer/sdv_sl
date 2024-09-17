@@ -1,8 +1,8 @@
 import pandas as pd
 import numpy as np
-from skimage import io
+import skimage
 import streamlit as st 
-from PIL import Image
+from skimage import io
 
 st.title(':violet[Сжатие фото] :camera:')
 st.subheader('                              ')
