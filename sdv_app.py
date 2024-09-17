@@ -1,5 +1,4 @@
 import pandas as pd
-import matplotlib.pyplot as plt
 import numpy as np
 from skimage import io
 import streamlit as st 
@@ -32,4 +31,4 @@ final = tr_U@tr_sigma@tr_V
 final_scaled = final - np.min(final)
 final_scaled /= np.max(final_scaled) 
 final_image = (final_scaled * 255).astype(np.uint8)
-st.image(final_image, caption='После сжатия')
+st.image(final_image, caption='После сжатия') 
