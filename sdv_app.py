@@ -1,6 +1,5 @@
 import pandas as pd
 import numpy as np
-import skimage
 import streamlit as st 
 from skimage import io
 
